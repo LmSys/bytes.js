@@ -33,7 +33,7 @@ var map = {
   tb: ((1 << 30) * 1024)
 };
 
-var parseRegExp = /^((-|\+)?(\d+(?:\.\d+)?)) *(kb|mb|gb|tb)$/i;
+var parseRegExp = /^((-|\+)?(\d+(?:\.\d+)?)).*(kb|mb|gb|tb)$/i;
 
 /**
  * Convert the given value in bytes into a string or parse to string to an integer in bytes.
